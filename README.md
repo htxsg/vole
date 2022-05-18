@@ -1,10 +1,10 @@
 # Introduction 
 
-Vole is a simple tester to test your web deployment. It is basd on expressJS backend sever. The home page uses the bootstrap CSS.
+Vole is a simple tester to test your web deployment. It is basd on [expressJS](http://expressjs.com) backend web sever. The home page uses the [bootstrap CSS](https://getbootstrap.com/docs/3.4/css/).
 
 ## Installation
 
-Pre-requisite is that node is install on developer machine. Execute the following commands
+Pre-requisite is that [node](https://nodejs.org/en/download/) is installed on developer machine. Execute the following commands:
 
 ```
 $ git clone https://github.com/htxsg/vole.git
@@ -13,17 +13,21 @@ $ npm install basic-auth --save
 $ npm install cookie-parser --save
 $ npm install nodemon -g
 ```
-*Note: nodemon is for development purpose to auto reload with code change.*
+**Note:** 
+- [basic-auth](https://www.npmjs.com/package/basic-auth) is for basic HTTP authentication if needed
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser) as the name describe is to parse cookie.
+- [nodemon](https://www.npmjs.com/package/nodemon) is for development purpose to auto reload with code change.
 
 ### Running
 
-Development start (on local machine):
+## Running locally
+In the vole directory run the following command:
 ```
 nodemon app.js 
 ```
+With nodemon, one can edit the code with the node server is running and it will automatically refresh without needing one to restart. Really useful for development.
 
-
-## Running as container locally
+## Running as container 
 1. This repo contains a `Dockerfile` to run a nodeJS in a docker container.
 
 2. To build the container image locally:
@@ -51,4 +55,5 @@ $ docker stop cd8962478178
 -  [CSS](https://getbootstrap.com/docs/3.4/css/)
 -  [Express Web Framework](http://expressjs.com)
 -  [Runnning HTTPS Server](https://adamtheautomator.com/https-nodejs/)
+
 
