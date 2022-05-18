@@ -1,6 +1,6 @@
 # Introduction 
 
-Vole is a simple tester to test your web deployment. It is basd on expressJS backend sever. The home page uses the bootstep CSS.
+Vole is a simple tester to test your web deployment. It is basd on expressJS backend sever. The home page uses the bootstrap CSS.
 
 ## Installation
 
@@ -13,11 +13,11 @@ $ npm install basic-auth --save
 $ npm install cookie-parser --save
 $ npm install nodemon -g
 ```
-*Note: nodemon is for development purpose to auto reload with code change*
+*Note: nodemon is for development purpose to auto reload with code change.*
 
 ### Running
 
-Developement start (on local machhine):
+Development start (on local machine):
 ```
 nodemon app.js 
 ```
@@ -26,7 +26,7 @@ nodemon app.js
 ## Running as container locally
 1. This repo contains a `Dockerfile` to run a nodeJS in a docker container.
 
-2. To build the contsainer image locally:
+2. To build the container image locally:
 ```
 $ docker build -t vole .
 ```
@@ -48,7 +48,7 @@ $ docker stop cd8962478178
 
 # Useful References
 
-[CSS](https://getbootstrap.com/docs/3.4/css/)
-[Express Web Framework](http://expressjs.com)
-[Runnning HTTPS Server](https://adamtheautomator.com/https-nodejs/)
+-  [CSS](https://getbootstrap.com/docs/3.4/css/)
+-  [Express Web Framework](http://expressjs.com)
+-  [Runnning HTTPS Server](https://adamtheautomator.com/https-nodejs/)
 
