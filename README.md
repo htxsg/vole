@@ -39,7 +39,7 @@ $ docker build -t vole .
 
 3. Execute the following command to run the docker container:
 ```
-$ docker run -p 8888:8888 vole 
+$ docker run -p 8888:80 vole 
 server is listening on 8888
 ```
 when the container is up, open  your browser and go to the following URL: [http://localhost:8888](http://localhost:8888)

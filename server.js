@@ -4,7 +4,7 @@ const app = express()
 const path = require('path');
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
-const port = process.env.PORT || 8888;
+const port = process.env.PORT || 80;
 
 
 // Home page
