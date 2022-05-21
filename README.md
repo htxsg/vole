@@ -12,12 +12,14 @@ $ cd vole
 $ npm install basic-auth
 $ npm install cookie-parser
 $ npm install axios
+$ npm install  body-parser
 $ sudo pm install nodemon -g
 ```
 **Note:** 
 - [basic-auth](https://www.npmjs.com/package/basic-auth) is for basic HTTP authentication if needed
 - [cookie-parser](https://www.npmjs.com/package/cookie-parser) as the name describe is to parse cookie.
 - [axios](https://axios-http.com/docs/intro) is a http client to perform API calls.
+- [body-parser](https://www.npmjs.com/package/body-parser) Parse incoming request bodies in a middleware.
 - [nodemon](https://www.npmjs.com/package/nodemon) is for development purpose to auto reload with code change.
 
 ### Running
