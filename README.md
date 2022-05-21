@@ -9,13 +9,15 @@ Pre-requisite is that [node](https://nodejs.org/en/download/) is installed on de
 ```
 $ git clone https://github.com/htxsg/vole.git
 $ cd vole
-$ npm install basic-auth --save
-$ npm install cookie-parser --save
-$ npm install nodemon -g
+$ npm install basic-auth
+$ npm install cookie-parser
+$ npm install axios
+$ sudo pm install nodemon -g
 ```
 **Note:** 
 - [basic-auth](https://www.npmjs.com/package/basic-auth) is for basic HTTP authentication if needed
 - [cookie-parser](https://www.npmjs.com/package/cookie-parser) as the name describe is to parse cookie.
+- [axios](https://axios-http.com/docs/intro) is a http client to perform API calls.
 - [nodemon](https://www.npmjs.com/package/nodemon) is for development purpose to auto reload with code change.
 
 ### Running
@@ -55,5 +57,5 @@ $ docker stop cd8962478178
 -  [CSS](https://getbootstrap.com/docs/3.4/css/)
 -  [Express Web Framework](http://expressjs.com)
 -  [Runnning HTTPS Server](https://adamtheautomator.com/https-nodejs/)
-
+-  [HTTPbin](http://httpbin.org) for testing of HTTP calls
 
