@@ -13,7 +13,7 @@ $ npm install basic-auth
 $ npm install cookie-parser
 $ npm install axios
 $ npm install  body-parser
-$ sudo pm install nodemon -g
+$ sudo npm install nodemon -g
 ```
 **Note:** 
 - [basic-auth](https://www.npmjs.com/package/basic-auth) is for basic HTTP authentication if needed
